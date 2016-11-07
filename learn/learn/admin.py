@@ -1,5 +1,5 @@
 from  django.contrib import admin
-from app01 import models
+from app import models
 
 
 class BBS_admin(admin.ModelAdmin):
