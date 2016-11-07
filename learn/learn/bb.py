@@ -1,3 +1,7 @@
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+
 from django.db import models
 from test.test_imageop import MAX_LEN
 from django.contrib.auth.models import User
