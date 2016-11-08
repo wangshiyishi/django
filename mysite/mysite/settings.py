@@ -1,5 +1,5 @@
 """
-Django settings for learn project.
+Django settings for mysite project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6@uvvq!*!m16#ss83xokx-fu_@(fnlz+l01g&l(4%_2+m@p6ka'
+SECRET_KEY = 'e*oi-+-y#8o1=f)i2f@d9oz)m(fv41$a3k+1!qw5@+%s1&bd9v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,8 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'learn'
 
-    'study'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -50,9 +50,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'learn.urls'
+ROOT_URLCONF = 'mysite.urls'
 
-WSGI_APPLICATION = 'learn.wsgi.application'
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 # Database
